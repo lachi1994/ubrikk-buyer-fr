@@ -1,0 +1,15 @@
+// react toastify
+@import '~react-toastify/dist/ReactToastify.css';
+
+// bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// utilities
+@import './utilities';
+
+// variables
+@import './variables';
+
+// custom stylings
+@import './customs/global';
+@import './customs/home';

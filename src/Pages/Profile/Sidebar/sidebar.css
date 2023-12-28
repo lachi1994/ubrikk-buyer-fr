@@ -1,0 +1,65 @@
+.menu-logo{
+   font-size: 18px;
+   font-weight: 600; 
+   padding: 0px 25px;
+   color: rgb(175, 175, 175);
+}
+.logout_btn{
+   background-color: red;
+   color: white;
+   width: 80px;
+   height: 40px;
+   margin-left: 1000px;
+   border-radius: 5px;
+}
+
+
+
+
+
+ 
+.menu-bar{
+   background-color: rgb(255, 255, 255);
+   width: 222px; 
+   height: 650px; 
+   border-radius: 15px;
+   padding: 35px 0px;  
+}
+ 
+.menu-items{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;   
+}
+
+.menu-items .item{   
+   width: 222px;
+   display: flex;
+   align-items: center;
+   height: 60px;
+   padding: 0px 20px;  
+   color: gray;
+   text-decoration: none;
+}
+
+.menu-items .item:hover,
+.menu-items .item.active  {  
+   border-right: 4px solid blue;
+   background-color: rgb(235, 239, 255); 
+   color: blue;  
+}
+
+
+.menu-items .item.active span,
+.menu-items .item:hover span  {   
+   font-weight: 600; 
+   color: blue !important;
+}
+
+.menu-items .item span{
+   font-size: 18px;
+   font-weight: 400;   
+   padding: 0px 10px; 
+   color: gray; 
+} 

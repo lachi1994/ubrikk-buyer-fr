@@ -1,0 +1,160 @@
+.landing-body{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  height: calc(100% - 60px); 
+  min-height: 800px;  
+}
+.landing-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+  padding: 20px; 
+}
+.landing-content p{
+  font-size: 17px; 
+  font-weight: 700;
+}
+@media (max-width:480px) {
+  .landing-body{
+    margin-top: 0px;
+    max-height: 1500px;
+    width: 100%;
+  }
+  .landing-content p{
+    margin-top: 0px;
+    font-size: 10px; 
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .landing-content p strong{ 
+    font-weight: 900 !important;
+  }
+  .landing-content h2{ 
+    text-align: justify;
+    font-size: 20px;  
+    padding: 3px;
+    font-size: 5px;  
+    font-family: 'Tienne', serif;
+    margin-bottom: 0px;
+  }
+  .landing-content input{
+    font-size: 10px;  
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    max-width: 50px;
+    width: 20%;
+  
+  }
+  .landing-content p strong{ 
+    font-weight: 500 !important;
+  }
+  .landing-content b{ 
+    font-size: 5px;
+    margin: 5px 0px;
+  }
+
+
+}
+@media (max-width:768px) and (min-width:481px){
+  .landing-body{
+    height: 700px;
+    width: 100%;
+  }
+}
+
+.landing-content input{
+  font-size: 17px;  
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  max-width: 600px;
+  width: 70%;
+}
+
+.landing-content p strong{ 
+  font-weight: 900 !important;
+}
+
+.landing-content h2{ 
+  text-align: center;  
+  padding: 20px;
+  font-size: 35px;  
+  font-family: 'Tienne', serif;
+}
+
+.landing-content h2 span{ 
+  color: #0913FA;
+}
+
+.landing-content b{ 
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+.ado-vdo-lables{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.ado-vdo-lables div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; 
+  margin: 0px 40px; 
+}
+
+.ado-vdo-lables div .icon{
+  color: #0913FA;
+  font-size: 30px; 
+}
+
+.ado-vdo-lables div p{
+  font-weight: 800; 
+  margin-top: 5px;
+}
+
+.btn-groups{ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 100px 0 0 300px ;
+}
+ 
+
+.btn-groups button{
+  background-color: #0913FA;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 150px;
+  border: none;
+}
+.btn-groups button.btn-transparent{
+  background-color: transparent; 
+  color: black;
+}
+.social-icons{ 
+  text-align: center;
+  margin: 50px 0px; 
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%; 
+  font-size: 30px;
+  color: #0913FA;
+}
+.social-icons .icon{ 
+  margin: 0px 10px;  
+} 
+
+
+  
